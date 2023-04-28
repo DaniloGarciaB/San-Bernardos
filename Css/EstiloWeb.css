@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #efefef;
+}
+
+.Barra{
+    float: right;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.SubT1{
+    font-family: 'Titan One', cursive;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    top: 280px;
+    left: 10px;
+}
+.SubT2{
+    font-family: 'Titan One', cursive;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    top: 320px;
+    left: 10px;
+}
+.SubT3{
+    font-family: 'Titan One', cursive;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    top: 360px;
+    left: 10px;
+}
+#Titulo{
+    font-family: 'Titan One', cursive;
+    color: azure;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+section{
+    width: 80%;
+    float: right;
+    overflow: auto;
+    height: 950px;
+}
+aside{
+    width: 18%;
+    float: left;
+}
+.btnL{
+    width: 100%;
+    height: 50px;
+}
+.btn-lg{
+    width: 100%;
+    height: 120px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: ease;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+.PiePagina{
+    position: relative;
+    height: 90px;
+    background-color: midnightblue;
+    padding: 35px;
+    color: azure;
+}
+#Institucion{
+    float: right;
+}
+#Autor{
+    float: left;
+}
+.carousel{
+    width: 400px;
+    margin: 0 auto;
+}
+.Pp{
+    padding-top: 20px;
+    height: 200px;
+}
+.Pp2{
+    height: 200px;
+}

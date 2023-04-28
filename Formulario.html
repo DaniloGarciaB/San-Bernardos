@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html id="Formulario">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <script type="text/javascript" src="js/Funciones.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/bootstrap.min.css">
+        <link rel="stylesheet" href="Css/EstiloTablas.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="Principal.html">SAN BERNARDO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="Barra" id="BarraBotones">
+                    <ul class="navbar-nav me-auto" id="Botones">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Principal.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tablas.html">Tablas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Formulario.html">Formulario</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <div class="contenedor">
+                <img src="Img/Banner.jpg" width="100%" height="400px"/>
+            </div>
+        </header>
+        <section>
+            <div class="Titulo">
+                <h1>Formulario</h1>
+            </div>
+            <hr>
+            <div class="ContForm">
+                <form action="procesar.php" method="post" onsubmit="return validarFormulario()">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                  
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion">
+                  
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                  
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo">
+                  
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                  
+                    <label for="edad">Edad:</label>
+                    <input type="text" id="edad" name="edad">
+                  
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </body>
+    <footer class="PiePagina">
+        <p id="Autor">Autor: Danilo Garcia Betancur</p>
+        <p id="Institucion">Institucion Universitaria Pascual Bravo</p>
+    </footer>
+</html>

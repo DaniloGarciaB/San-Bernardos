@@ -1,0 +1,155 @@
+html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #efefef;
+}
+
+.Barra{
+    float: right;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+section{
+    width: 100%;
+    overflow: auto;
+    height: 950px;
+}
+aside{
+    width: 18%;
+    float: left;
+}
+.btnL{
+    width: 100%;
+    height: 50px;
+}
+.btn-lg{
+    width: 100%;
+    height: 120px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: ease;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+.PiePagina{
+    position: relative;
+    height: 90px;
+    background-color: midnightblue;
+    padding: 35px;
+    color: azure;
+}
+#Institucion{
+    float: right;
+}
+#Autor{
+    float: left;
+}
+.carousel{
+    width: 400px;
+    margin: 0 auto;
+}
+.Pp{
+    padding-top: 20px;
+    height: 200px;
+}
+.Pp2{
+    height: 200px;
+}
+.Titulo{
+    padding: 15px;
+}
+.ContTabla{
+    width: 100%;
+    padding: 25px;
+}
+.Tabla{
+    width: 100%;
+    padding: 25px;
+    border: 1px solid black;
+}
+Table, th, td {
+    border: 1px solid black;
+    height: 47px;
+}
+th{
+    background-color:cornflowerblue;
+}
+iframe{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.form-group2{
+    padding-top: 17px;
+}
+.form-group3{
+    padding-top: 17px;
+}
+#BtnEnviar{
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.ContBoton{
+    width: 100%;
+    height: 70px;
+}
+.ContForm{
+    width: 70%;
+    padding: 25px;
+    margin: 0 auto;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  

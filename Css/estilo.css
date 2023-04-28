@@ -1,0 +1,21 @@
+html,body{margin:0;padding:0}
+
+body{font:76% arial,sans-serif;text-align:center}
+
+	p{margin:0 10px 10px}
+	a{display:block;color: #981793;padding:10px}
+	div#encabezado h1{height:80px;line-height:80px;margin:0; padding-left:10px;background: #EEE:color: #79B30B}
+	div#encabezado{background:#B9CAFF;margin-bottom:20px;;margin-top:10px}
+	
+	div#contenedor{text-align:left}
+	div#contenido p{line-height:1.4}
+	div#navegacion{background:B9CAFF}
+	div#derecha{background:FF8539}
+	div#piepagina{background: #333;color: #FFF}
+	div#piepagina p{margin:0;padding:25px 10px}
+	div#contenedor{width:999px;margin:0 auto}
+	div#centro{float:left;width:100%}
+	div#contenido{margin: 0 150px}
+	div#derecha{float:left;width:150px;margin-top:10px;margin-left:-150px}
+	div#navegacion{float:left;width:150px;margin-left:-1010px}
+	div#piepagina{clear:left;width:100%}
